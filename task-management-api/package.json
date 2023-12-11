@@ -1,0 +1,40 @@
+{
+  "name": "task-management-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "start-gendoc": "node ./swagger/swagger.js",
+    "test": "mocha",
+    "redis": "redis-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "chai-http": "^4.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.29.4",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.0.1",
+    "nodemailer": "^6.9.7",
+    "nodemon": "^3.0.1",
+    "randomstring": "^1.3.0",
+    "swagger-autogen": "^2.23.7",
+    "swagger-ui-express": "^4.1.4",
+    "util-deprecate": "^1.0.2",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0"
+  }
+}

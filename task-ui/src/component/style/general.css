@@ -1,0 +1,34 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #65b5f6;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right bottom, rgb(101, 159, 246), rgb(133, 253, 213));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right bottom, rgb(101, 181, 246), rgb(29, 230, 203))
+}
+
+/* .user-style-1 {
+    background-color: #f4f5f7
+} */
+
+.user-style-2 {
+    border-radius: .5rem;
+}
+
+.user-style-3 {
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+}
+
+.user-style-4 {
+    width: 80px;
+}
+
+
+/* ....................... Style for Navbar .....................................................*/
+
+.nav-bg-color{
+    background-color: #f5f8ff !important;
+}
